@@ -1,0 +1,22 @@
+README FILE
+
+Generate a streaming source for gps coordinates
+generate a program to query for the cordinates from the streaming source
+parse the streamed data to a file to get the final longitude and latitude
+
+streaming source ----- source.php
+application received the gps and decode them  ----- application.php
+
+
+How to Run ...
+Linux
+Running on a terminal
+create a directory and add the files to the directory
+to run execute php application.php
+
+note ... you should have php installed in your machine
+
+The system will output on the terminal a json encoded response and write to a file called coordinates.log
+
+To view the output on the coordinates.log file, tail the file i.e. tail -f coordinates.log
+
